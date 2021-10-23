@@ -1,0 +1,17 @@
+l = [1,2,3,4,5,6,7]
+def triple(num):
+    return num*3
+print("sample list: {}".format(l))
+print("\n")
+print("Triple of list numbers:")
+list(map(triple,l))
+
+
+
+Output :-
+
+sample list: [1, 2, 3, 4, 5, 6, 7]
+
+
+Triple of list numbers:
+[3, 6, 9, 12, 15, 18, 21]
