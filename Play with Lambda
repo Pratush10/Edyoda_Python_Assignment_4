@@ -1,0 +1,7 @@
+n = 10
+add_25 = lambda x:x+25
+add_25(n)
+
+
+Output :-
+35
